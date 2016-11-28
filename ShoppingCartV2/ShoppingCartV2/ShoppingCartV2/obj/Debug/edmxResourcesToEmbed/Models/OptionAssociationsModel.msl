@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ShoppingCartDBModel6StoreContainer" CdmEntityContainer="ShoppingCartDBEntities6">
+    <EntitySetMapping Name="OptionAssociations">
+      <EntityTypeMapping TypeName="ShoppingCartDBModel6.OptionAssociation">
+        <MappingFragment StoreEntitySet="OptionAssociations">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="OptionID" ColumnName="OptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
